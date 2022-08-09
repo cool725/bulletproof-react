@@ -1,13 +1,13 @@
-export type AuthUser = {
+export interface AuthUser {
   id: string;
   email: string;
   firstName: string;
   lastName: string;
   bio: string;
   role: 'ADMIN' | 'USER';
-};
+}
 
-export type UserResponse = {
+export interface UserResponse {
   jwt: string;
   user: AuthUser;
-};
+}

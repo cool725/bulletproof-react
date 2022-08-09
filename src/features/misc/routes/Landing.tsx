@@ -53,7 +53,7 @@ export const Landing = () => {
             </div>
             <div className="ml-3 inline-flex">
               <a
-                href="https://github.com/alan2207/bulletproof-react"
+                href="https://github.com/cool725/bulletproof-react"
                 target="_blank"
                 rel="noreferrer"
               >
